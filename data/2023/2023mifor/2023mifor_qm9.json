@@ -1,0 +1,282 @@
+{
+  "actual_time": 1677863575,
+  "alliances": {
+    "blue": {
+      "dq_team_keys": [],
+      "score": 53,
+      "surrogate_team_keys": [],
+      "team_keys": [
+        "frc4237",
+        "frc5086",
+        "frc5878"
+      ]
+    },
+    "red": {
+      "dq_team_keys": [],
+      "score": 82,
+      "surrogate_team_keys": [],
+      "team_keys": [
+        "frc3603",
+        "frc3688",
+        "frc6100"
+      ]
+    }
+  },
+  "comp_level": "qm",
+  "event_key": "2023mifor",
+  "key": "2023mifor_qm9",
+  "match_number": 9,
+  "post_result_time": 1677863766,
+  "predicted_time": 1677863661,
+  "score_breakdown": {
+    "blue": {
+      "activationBonusAchieved": true,
+      "adjustPoints": 0,
+      "autoBridgeState": "Level",
+      "autoChargeStationPoints": 0,
+      "autoChargeStationRobot1": "None",
+      "autoChargeStationRobot2": "None",
+      "autoChargeStationRobot3": "None",
+      "autoCommunity": {
+        "B": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "M": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "T": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "autoDocked": false,
+      "autoGamePieceCount": 0,
+      "autoGamePiecePoints": 0,
+      "autoMobilityPoints": 3,
+      "autoPoints": 3,
+      "coopGamePieceCount": 4,
+      "coopertitionCriteriaMet": true,
+      "endGameBridgeState": "Level",
+      "endGameChargeStationPoints": 30,
+      "endGameChargeStationRobot1": "Docked",
+      "endGameChargeStationRobot2": "Docked",
+      "endGameChargeStationRobot3": "Docked",
+      "endGameParkPoints": 0,
+      "foulCount": 1,
+      "foulPoints": 0,
+      "linkPoints": 5,
+      "links": [
+        {
+          "nodes": [
+            3,
+            4,
+            5
+          ],
+          "row": "Bottom"
+        }
+      ],
+      "mobilityRobot1": "No",
+      "mobilityRobot2": "No",
+      "mobilityRobot3": "Yes",
+      "rp": 1,
+      "sustainabilityBonusAchieved": false,
+      "techFoulCount": 0,
+      "teleopCommunity": {
+        "B": [
+          "None",
+          "None",
+          "None",
+          "Cube",
+          "Cube",
+          "Cube",
+          "None",
+          "Cone",
+          "Cone"
+        ],
+        "M": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "T": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "Cube",
+          "None",
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      "teleopGamePieceCount": 6,
+      "teleopGamePiecePoints": 15,
+      "teleopPoints": 45,
+      "totalChargeStationPoints": 30,
+      "totalPoints": 53
+    },
+    "red": {
+      "activationBonusAchieved": false,
+      "adjustPoints": 0,
+      "autoBridgeState": "NotLevel",
+      "autoChargeStationPoints": 0,
+      "autoChargeStationRobot1": "None",
+      "autoChargeStationRobot2": "None",
+      "autoChargeStationRobot3": "None",
+      "autoCommunity": {
+        "B": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "M": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "T": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "Cube",
+          "None"
+        ]
+      },
+      "autoDocked": false,
+      "autoGamePieceCount": 1,
+      "autoGamePiecePoints": 6,
+      "autoMobilityPoints": 6,
+      "autoPoints": 12,
+      "coopGamePieceCount": 5,
+      "coopertitionCriteriaMet": true,
+      "endGameBridgeState": "Level",
+      "endGameChargeStationPoints": 20,
+      "endGameChargeStationRobot1": "Docked",
+      "endGameChargeStationRobot2": "Park",
+      "endGameChargeStationRobot3": "Docked",
+      "endGameParkPoints": 2,
+      "foulCount": 0,
+      "foulPoints": 5,
+      "linkPoints": 10,
+      "links": [
+        {
+          "nodes": [
+            5,
+            6,
+            7
+          ],
+          "row": "Bottom"
+        },
+        {
+          "nodes": [
+            3,
+            4,
+            5
+          ],
+          "row": "Top"
+        }
+      ],
+      "mobilityRobot1": "No",
+      "mobilityRobot2": "Yes",
+      "mobilityRobot3": "Yes",
+      "rp": 2,
+      "sustainabilityBonusAchieved": false,
+      "techFoulCount": 0,
+      "teleopCommunity": {
+        "B": [
+          "None",
+          "None",
+          "None",
+          "Cone",
+          "None",
+          "Cube",
+          "Cone",
+          "Cone",
+          "None"
+        ],
+        "M": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "T": [
+          "Cone",
+          "None",
+          "None",
+          "Cone",
+          "Cube",
+          "Cone",
+          "Cone",
+          "Cube",
+          "None"
+        ]
+      },
+      "teleopGamePieceCount": 10,
+      "teleopGamePiecePoints": 33,
+      "teleopPoints": 55,
+      "totalChargeStationPoints": 20,
+      "totalPoints": 82
+    }
+  },
+  "set_number": 1,
+  "time": 1677863040,
+  "videos": [
+    {
+      "key": "0nqcokHUpfI",
+      "type": "youtube"
+    }
+  ],
+  "winning_alliance": "red"
+}
