@@ -1,0 +1,101 @@
+{
+  "actual_time": null,
+  "alliances": {
+    "blue": {
+      "dq_team_keys": [],
+      "score": 123,
+      "surrogate_team_keys": [],
+      "team_keys": [
+        "frc818",
+        "frc226",
+        "frc6861"
+      ]
+    },
+    "red": {
+      "dq_team_keys": [],
+      "score": 142,
+      "surrogate_team_keys": [],
+      "team_keys": [
+        "frc5460",
+        "frc3534",
+        "frc3539"
+      ]
+    }
+  },
+  "comp_level": "sf",
+  "event_key": "2021mirc2",
+  "key": "2021mirc2_sf2m1",
+  "match_number": 1,
+  "post_result_time": null,
+  "predicted_time": null,
+  "score_breakdown": {
+    "blue": {
+      "autoCellPoints": 30,
+      "autoCellsBottom": 2,
+      "autoCellsInner": 1,
+      "autoCellsOuter": 5,
+      "autoInitLinePoints": 15,
+      "autoPoints": 45,
+      "controlPanelPoints": 15,
+      "endgamePoints": 35,
+      "endgameRobot1": "Park",
+      "endgameRobot2": "Park",
+      "endgameRobot3": "Hang",
+      "endgameRungIsLevel": "NotLevel",
+      "foulCount": 0,
+      "foulPoints": 0,
+      "initLineRobot1": "Exited",
+      "initLineRobot2": "Exited",
+      "initLineRobot3": "Exited",
+      "shieldEnergizedRankingPoint": false,
+      "shieldOperationalRankingPoint": false,
+      "stage1Activated": true,
+      "stage2Activated": true,
+      "stage3Activated": false,
+      "stage3TargetColor": "Unknown",
+      "techFoulCount": 0,
+      "teleopCellPoints": 28,
+      "teleopCellsBottom": 9,
+      "teleopCellsInner": 1,
+      "teleopCellsOuter": 8,
+      "teleopPoints": 78,
+      "totalPoints": 123
+    },
+    "red": {
+      "autoCellPoints": 44,
+      "autoCellsBottom": 0,
+      "autoCellsInner": 6,
+      "autoCellsOuter": 2,
+      "autoInitLinePoints": 10,
+      "autoPoints": 54,
+      "controlPanelPoints": 0,
+      "endgamePoints": 35,
+      "endgameRobot1": "Park",
+      "endgameRobot2": "Hang",
+      "endgameRobot3": "Park",
+      "endgameRungIsLevel": "NotLevel",
+      "foulCount": 0,
+      "foulPoints": 0,
+      "initLineRobot1": "Exited",
+      "initLineRobot2": "None",
+      "initLineRobot3": "Exited",
+      "shieldEnergizedRankingPoint": false,
+      "shieldOperationalRankingPoint": false,
+      "stage1Activated": true,
+      "stage2Activated": false,
+      "stage3Activated": false,
+      "stage3TargetColor": "Unknown",
+      "techFoulCount": 0,
+      "teleopCellPoints": 53,
+      "teleopCellsBottom": 0,
+      "teleopCellsInner": 7,
+      "teleopCellsOuter": 16,
+      "teleopPoints": 88,
+      "totalPoints": 142
+    }
+  },
+  "set_number": 2,
+  "time": null,
+  "videos": [],
+  "winning_alliance": "red"
+}
