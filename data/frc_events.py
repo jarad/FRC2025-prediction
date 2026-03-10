@@ -1,6 +1,5 @@
 import requests
 import json
-import os
 import time
 from pathlib import Path
 
@@ -95,8 +94,8 @@ def get_match_file_path(match_key, year):
 
 def main():
     # Start from current year and go back to 1992 (first year of FRC)
-    end_year = 2011  # Current year
-    start_year = 2005
+    end_year = 2026  # Current year
+    start_year = 2026
     
     print(f"Fetching FRC events from {end_year} back to {start_year}")
     total_matches_processed = 0

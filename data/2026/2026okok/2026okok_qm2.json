@@ -1,0 +1,132 @@
+{
+  "actual_time": 1772809450,
+  "alliances": {
+    "blue": {
+      "dq_team_keys": [],
+      "score": 65,
+      "surrogate_team_keys": [],
+      "team_keys": [
+        "frc4500",
+        "frc5550",
+        "frc3526"
+      ]
+    },
+    "red": {
+      "dq_team_keys": [],
+      "score": 294,
+      "surrogate_team_keys": [],
+      "team_keys": [
+        "frc3931",
+        "frc1706",
+        "frc4523"
+      ]
+    }
+  },
+  "comp_level": "qm",
+  "event_key": "2026okok",
+  "key": "2026okok_qm2",
+  "match_number": 2,
+  "post_result_time": 1772809641,
+  "predicted_time": 1772809478,
+  "score_breakdown": {
+    "blue": {
+      "adjustPoints": 0,
+      "autoTowerPoints": 0,
+      "autoTowerRobot1": "None",
+      "autoTowerRobot2": "None",
+      "autoTowerRobot3": "None",
+      "endGameTowerPoints": 0,
+      "endGameTowerRobot1": "None",
+      "endGameTowerRobot2": "None",
+      "endGameTowerRobot3": "None",
+      "energizedAchieved": false,
+      "foulPoints": 5,
+      "g206Penalty": false,
+      "hubScore": {
+        "autoCount": 13,
+        "autoPoints": 13,
+        "endgameCount": 18,
+        "endgamePoints": 18,
+        "shift1Count": 11,
+        "shift1Points": 11,
+        "shift2Count": 0,
+        "shift2Points": 0,
+        "shift3Count": 17,
+        "shift3Points": 17,
+        "shift4Count": 0,
+        "shift4Points": 0,
+        "teleopCount": 47,
+        "teleopPoints": 47,
+        "totalCount": 60,
+        "totalPoints": 60,
+        "transitionCount": 1,
+        "transitionPoints": 1,
+        "uncounted": 4
+      },
+      "majorFoulCount": 0,
+      "minorFoulCount": 0,
+      "penalties": "None",
+      "rp": 0,
+      "superchargedAchieved": false,
+      "totalAutoPoints": 13,
+      "totalPoints": 65,
+      "totalTeleopPoints": 47,
+      "totalTowerPoints": 0,
+      "traversalAchieved": false
+    },
+    "red": {
+      "adjustPoints": 0,
+      "autoTowerPoints": 0,
+      "autoTowerRobot1": "None",
+      "autoTowerRobot2": "None",
+      "autoTowerRobot3": "None",
+      "endGameTowerPoints": 10,
+      "endGameTowerRobot1": "None",
+      "endGameTowerRobot2": "Level1",
+      "endGameTowerRobot3": "None",
+      "energizedAchieved": true,
+      "foulPoints": 0,
+      "g206Penalty": false,
+      "hubScore": {
+        "autoCount": 46,
+        "autoPoints": 46,
+        "endgameCount": 86,
+        "endgamePoints": 86,
+        "shift1Count": 0,
+        "shift1Points": 0,
+        "shift2Count": 89,
+        "shift2Points": 89,
+        "shift3Count": 0,
+        "shift3Points": 0,
+        "shift4Count": 61,
+        "shift4Points": 61,
+        "teleopCount": 238,
+        "teleopPoints": 238,
+        "totalCount": 284,
+        "totalPoints": 284,
+        "transitionCount": 2,
+        "transitionPoints": 2,
+        "uncounted": 0
+      },
+      "majorFoulCount": 0,
+      "minorFoulCount": 1,
+      "penalties": "None",
+      "rp": 4,
+      "superchargedAchieved": false,
+      "totalAutoPoints": 46,
+      "totalPoints": 294,
+      "totalTeleopPoints": 248,
+      "totalTowerPoints": 10,
+      "traversalAchieved": false
+    }
+  },
+  "set_number": 1,
+  "time": 1772809080,
+  "videos": [
+    {
+      "key": "7H_l9FVA__g",
+      "type": "youtube"
+    }
+  ],
+  "winning_alliance": "red"
+}
