@@ -1,7 +1,6 @@
 import pandas as pd
 import glob
 import json
-import os
 
 def flatten_json_files_to_csv(directory_path, output_csv_path):
     """

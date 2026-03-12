@@ -2,7 +2,6 @@ import requests
 import pandas as pd
 import json
 from pathlib import Path
-import ast
 
 # Statbotics API base URL
 STATBOTICS_API_URL = "https://api.statbotics.io/v3"
@@ -23,7 +22,7 @@ def flatten_dict(d, parent_key='', sep='_'):
             items.append((new_key, v))
     return dict(items)
 
-def get_team_epa(team_number, year=2025):
+def get_team_epa(team_number, year=2026):
     """
     Fetch EPA data for a specific team in a given year
     """
@@ -36,7 +35,7 @@ def get_team_epa(team_number, year=2025):
         print(f"Error fetching EPA data for team {team_number}: {e}")
         return None
 
-def get_team_epa_history(team_number, year=2025):
+def get_team_epa_history(team_number, year=2026):
     """
     Fetch EPA history data for a specific team in a given year
     """
@@ -83,7 +82,7 @@ def main():
         print(f"\nFetching EPA data for team {team_number} ({team_name})...")
         
         # Get EPA data
-        epa_info = get_team_epa(team_number, year=2025)
+        epa_info = get_team_epa(team_number, year=2026)
         
         if epa_info:
             # Flatten the entire epa_info dictionary recursively
@@ -101,7 +100,7 @@ def main():
             epa_record.update(flattened_epa)
             
             # Get EPA history
-            epa_history = get_team_epa_history(team_number, year=2025)
+            epa_history = get_team_epa_history(team_number, year=2026)
             if epa_history:
                 epa_record['events_attended'] = len(epa_history)
             
