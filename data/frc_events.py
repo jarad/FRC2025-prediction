@@ -1,11 +1,15 @@
 import requests
 import json
 import time
+import os
+from dotenv import load_dotenv
 from pathlib import Path
+
+load_dotenv()
 
 # Define the base URL and API key
 BASE_URL = "https://www.thebluealliance.com/api/v3"
-API_KEY = "evMtKpcBGlJiRvCpiFxYHWUAFgIsw2Ti2QXBsODyqqplwoiIgswJlhIld7Eg0ZFd"
+API_KEY = os.getenv("API_KEY")
 
 # Define headers for the API request
 HEADERS = {
