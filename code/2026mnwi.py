@@ -1,12 +1,13 @@
 import requests
 import json
+import os
 import time
 import pandas as pd
 from pathlib import Path
 
 # Define the base URL and API key
 BASE_URL = "https://www.thebluealliance.com/api/v3"
-API_KEY = "evMtKpcBGlJiRvCpiFxYHWUAFgIsw2Ti2QXBsODyqqplwoiIgswJlhIld7Eg0ZFd"
+API_KEY = os.getenv("X_TBA_Auth_Key")
 
 # Define headers for the API request
 HEADERS = {

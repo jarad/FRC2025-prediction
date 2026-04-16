@@ -9,7 +9,7 @@ load_dotenv()
 
 # Define the base URL and API key
 BASE_URL = "https://www.thebluealliance.com/api/v3"
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("X_TBA_Auth_Key")
 
 # Define headers for the API request
 HEADERS = {
